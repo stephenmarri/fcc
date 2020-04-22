@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+html{
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: white !important;
+	/*height: 100%;*/
+}
+
+
+body {
+  
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;  
+  color: white;
+  margin: 0;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),url('../images/survey-form-background.jpeg');
+}
+
+#container{
+	height: auto;
+	max-width: 720px;
+	width: 100%;
+	/*margin:5rem auto;*/
+	/*padding: 5rem 18rem 0rem 18rem;*/
+	margin: 3.125rem auto 0px auto;
+	/*overflow: hidden;		*/
+}
+
+#title-container{
+	display: block;
+	text-align: center;
+	color: white;
+}
+
+h1,p{
+	    margin-top: 0;
+	margin-bottom: 0.3rem;
+	color: white;
+}
+
+h1{
+	font-weight: 400;
+	line-height: 1.2;
+	margin:0;
+	margin:0px 0px 8px;
+}
+
+#description{
+	font-size: 1.125rem;
+	font-style: italic;
+	margin:0px 0px 8px;
+	font-weight: 200;
+	line-height: 1.2rem;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	margin-bottom: 2rem;
+
+}
+
+#survey-form{
+	background-color:#2b2a47;
+	height: 100%;
+	padding: 2.5rem;
+}
+
+.form-group{
+	margin-bottom: 0 !important;
+	height: auto;
+}
+
+/*FOrm css*/
+#survey-form{
+	font-weight: 500;
+	font-size: 1.125em;
+}
+
+#submit, #additionalComments{
+	width: 100%;
+	padding: 0;
+}
+
+#submit {
+	background: #37af65;
+	padding: 0.75em;
+	border-radius: 2px;
+	border:none;	
+	color:white;
+	font-weight: 400;
+	font-size: 1em;
+	cursor: pointer;
+	margin-top: 25px;
+}
+
+form #name, #email, #number, #dropdown, #dropdown2{
+	width: 100%;
+	padding: 0.375rem 0.75rem;
+	background-clip: padding-box;
+	height: 2.375em;
+	border: 1px solid #ced4da;
+	border-radius: 0.75mm;
+	margin: 0;
+}
+
+label{
+	margin-bottom: 0.5rem;
+	color: white;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}

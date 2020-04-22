@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<title>Survey Form</title>
+</head>
+<body>
+	<div id="container">
+		<!-- Title Container -->
+		<div id="title-container">
+			<h1 id="title">freeCodeCamp Survey Form</h1>
+			<p id="description">Thank you for taking the time to help us improve the platform</p>
+		</div>
+
+		<!-- Form -->
+		<form id="survey-form">
+			
+			<div class="form-group">
+				<label id="name-label" for="name">Name</label><br>
+				<input type="text" name="name" id="name" class="form-control" placeholder="Enter your Name" required>
+			</div>
+
+			<div class="form-group">
+				<br><label id="email-label" for="email">Email</label><br>
+				<input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+			</div>
+
+			<div class="form-group">
+				<br><label id="number-label" for="number">Age<span class="clue">(Optional)</span></label><br>
+				<input class="custom-select" type="number" id="number" name="age" class="form-control" placeholder="Age" min="10" max="100" required>
+			</div>
+
+			<div class="form-group">
+				<br><label id="dropdown-label" for="dropdown">Which option best describes your current role?</label><br>
+				<select id="dropdown" name="role" class="custom-select form-control">
+					<option>Select Current Role</option>
+					<option value="Student" class="dropdown-items">Student</option>
+					<option value="Full Time Job" class="dropdown-items">Full Time Job</option>
+					<option value="Full Time learner" class="dropdown-items">Full Time learner</option>
+					<option value="Prefer Not to Say" class="dropdown-items">Prefer Not to Say</option>
+					<option value="Others" class="dropdown-items">Others</option>								
+				</select>
+			</div>
+
+			<div class="form-group ">
+				<br><label id="radio-label" for="radioButtons" >Would you recommend freeCodeCamp to your friends?</label>
+				<div id="radio-label">
+					<input type="radio" class="input-radio" name="radio-group1" id="radio__definitely" value="Definitely">
+					<label for="radio__definitely">Definitely</label><br>
+					<input type="radio" class="input-radio" name="radio-group1" id="radio__Maybe" value="Maybe">
+					<label for="radio__Maybe">Maybe</label><br>
+					<input type="radio" class="input-radio" name="radio-group1" id="radio__notsure" value="Not Sure">
+					<label for="radio__notsure">Not Sure</label><br>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<br><label id="dropdown-label2" for="dropdown2">What is your favourite feature of freecodecamp?</label><br>
+				<select id="dropdown2" name="bestFeature" class="form-control">
+					<option>Select an option</option>
+					<option value="Challenges" class="dropdown-items2">Challenges</option>
+					<option value="Projects" class="dropdown-items2">Projects</option>
+					<option value="Community" class="dropdown-items2">Community</option>
+					<option value="Open Source" class="dropdown-items2">Open Source</option>
+					<option value="Others" class="dropdown-items">Others</option>								
+				</select>
+			</div>
+
+			<div class="form-group">
+				<br><p>What would you like to see improved? (Check all that apply)</p>
+				<input type="checkbox" class="input-checkbox"  name="frontendprojects" id="frontendprojects" value="frontendprojects">
+				<label for="frontendprojects">Front End Projects</label><br>
+				<input type="checkbox" class="input-checkbox"  name="Back-endProjects" id="Back-endProjects" value="Back-endProjects">
+				<label for="Back-endProjects">Back-end Projects</label><br>
+				<input type="checkbox" class="input-checkbox"  name="DataVisualization" id="DataVisualization" value="DataVisualization">
+				<label for="DataVisualization">Data Visualization</label><br>
+				<input type="checkbox" class="input-checkbox"  name="Challenges" id="Challenges" value="Challenges">
+				<label for="Challenges">Challenges</label><br>
+				<input type="checkbox" class="input-checkbox" name="Videos" id="Videos" value="Videos">
+				<label for="Videos">Videos</label><br>	
+				<input type="checkbox" class="input-checkbox"  name="Forum" id="Forum" value="Forum">
+				<label for="Forum">Forum</label><br>
+				<input type="checkbox" class="input-checkbox" name="Wiki" id="Wiki" value="Wiki">
+				<label for="Wiki">Wiki</label><br>
+			</div>
+
+			<div class="form-group">
+				<br><label for="additionalComments">Any additional comments or suggestions?</label><br>
+				<textarea name="additionalComments" id="additionalComments"  rows="5" placeholder="Enter your comments here"></textarea>
+			</div>
+
+			<div class="form-group">
+				<input type="submit" value="Submit" id="submit">
+			</div>
+
+		</form>
+
+	</div>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
