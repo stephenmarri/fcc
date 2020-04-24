@@ -56,8 +56,8 @@ html, body{
     background-color: #bdc3c7   ;
 }
 #video{
-    width:690px;
-    height:435px;
+    width:60em;
+    height:30em;
     padding: 9em 0;
     align-self: center;
 }
@@ -66,18 +66,20 @@ html, body{
 /* home */
 .home{
     width: 100%;
-    height: 660px;    
+    height: 61em;    
 }
 
 #home img{
-    width: 100%;
     height: inherit;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 @media only screen and (max-width:730px) {
     body {
       font-size: 8px;
     }
+
 }
 
 /* purchase */
@@ -85,14 +87,14 @@ html, body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height:640px;
+    height:60em;
     width: 100%;
     background-color: #16a085;
 }
 
 .books-container{
-    width: 80%;    
-    height: 400px;    
+    width: 60em;    
+    height: 30em;    
     margin-left: auto;
     margin-right: auto;
 }
@@ -105,7 +107,7 @@ html, body{
 .purchase form{
     padding-top: 1em;
     padding-bottom: 1em;
-    width: 40%;
+    width: 20em;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
