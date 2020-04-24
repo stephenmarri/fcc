@@ -1,0 +1,141 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding:0;
+    margin:0;
+}
+
+/* header */
+#header{
+    width: 100%;
+    height: 5em;   
+    overflow:hidden; 
+    background-color:#34495e;
+    position: fixed;
+}
+
+#header-img{    
+    height:5em;
+    float:left;    
+}
+
+/* nav-bar*/
+#nav-bar{
+    width:auto;
+    float:right;
+    height:inherit;
+   
+    
+}
+
+#nav-bar a{
+    height:inherit;
+    color:white;
+    display:inline-block;
+    text-decoration:none;
+    font-size:2em;
+    padding:0.5em 1em;
+    justify-content:center;  
+    transition:100ms;
+    transition-timing-function: ease-in-out;
+      
+}
+
+#nav-bar a:hover{
+    color:black;
+    background-color:white;
+    font-weight:400;
+}
+
+
+/* trailer */
+.trailer{
+    height:660px;
+    display:flex;
+    justify-content: center;
+    background-color: #bdc3c7   ;
+}
+#video{
+    width:690px;
+    height:435px;
+    padding: 9em 0;
+    align-self: center;
+}
+
+
+/* home */
+.home{
+    width: 100%;
+    height: 660px;    
+}
+
+#home img{
+    width: 100%;
+    height: inherit;
+}
+
+@media only screen and (max-width:730px) {
+    body {
+      font-size: 8px;
+    }
+}
+
+/* purchase */
+.purchase{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height:640px;
+    width: 100%;
+    background-color: #16a085;
+}
+
+.books-container{
+    width: 80%;    
+    height: 400px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.purchase .books-container img{
+    height: inherit;
+    width: 100%;
+}
+
+.purchase form{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 500;    
+}
+
+.purchase form #email{
+    width: 20em;
+    height: 2em;
+    border: 0px;
+    border-radius: 2px;
+    margin-left: 0.5em;
+    font-size: 0.75em;;
+}
+
+.purchase form #submit{
+    width: 31em;
+    height: 3em;
+    margin-top: 1em;
+    background-color: #1e3799;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+    font-size: 0.6em;
+    font-weight: 600;
+}
+
+.purchase form #submit:hover{
+    cursor: pointer;
+    background-color: #0c2461;
+    font-weight: 800;
+}

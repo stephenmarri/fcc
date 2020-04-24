@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>landingPages</title>
+    
+</head>
+<body>
+    
+    <div class="header__container">
+        <header id="header">
+            <img id="header-img" src="https://www.nicepng.com/png/detail/140-1407145_hogwarts-logo-png-image-free-download-hogwarts-crest.png" alt="brand image" >
+            <nav id="nav-bar">                
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#trailer" class="nav-link">Trailer</a>
+                <a href="#purchase" class="nav-link">Purchase</a>
+            </nav>
+        </header>
+    </div>
+
+    <div id="home" class="home" >
+        <img src="images/main.jpg" alt="main image">
+    </div>
+
+    <div id="trailer" class="trailer" >
+        <iframe id="video"  src="https://www.youtube.com/embed/VyHV0BRtdxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+    </div>
+
+    <div id="purchase" class="purchase" >
+
+        <div class="books-container">
+            <img src="images/purchase.jpg" alt="purchase">
+        </div>
+
+        <form action="https://www.freecodecamp.com/email-submit" target="_blank" id="form">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" name="email"><br>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
