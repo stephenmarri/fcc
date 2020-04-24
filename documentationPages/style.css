@@ -1,0 +1,120 @@
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    word-spacing: 1pt;
+    background: #4cd137;
+    display: flex;
+    flex-direction: row;
+}
+
+body main{
+    display: inline-block;
+    width: 65vw;
+    margin: 5pt 40pt 0 23vw;
+    flex:1;
+}
+
+button{
+    display: none;
+}
+
+body nav{
+    display: flex;
+    flex-direction: column;    
+    width: 25vw;
+    margin:15pt 2pt 0 15pt;
+    position: fixed;
+    height: 90%;
+}
+
+body header{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20pt;
+}
+
+body nav header{
+    margin-bottom: 15pt;
+}
+
+code{
+    display: block;
+    padding: 1pt;
+    font-style: italic;
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+    margin-left: 10pt;    
+    margin-right: 40pt;
+    padding: 10pt 0 10pt 10pt;
+    background-color: rgb(76, 190, 55);
+    color: black;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+body p{
+    text-align: justify;
+}
+
+main ul li{
+    text-align:  justify;
+    margin-right: 20pt;    
+}
+
+body nav a{
+    display: flex;
+    margin: 3pt 6pt 0 3pt;
+    text-decoration: none;
+    color: linen;
+    flex: 1;
+    border: 0px solid violet;        
+}
+
+body nav a span{
+    border-bottom: 1px dotted mediumblue;
+}
+
+body nav a span{
+    align-self: center;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    body{
+        flex-direction: column;
+    }
+    body nav {
+      position: static;      
+      width: 100vmin;
+      margin-top: 0;
+    }
+    body main{
+        width: 90vmin;
+        margin-left: 2vw;
+        margin-right: 4vw;
+    }
+
+    button{
+        display: block;
+        height: 40pt;
+        width: 70pt;
+        margin-left: 5vw;
+        border:0;
+        background-color: #34495e;
+        color: white;
+        font-size: 1.125em;
+        border-radius: 1vw;
+    }
+
+    button:hover{
+        background-color: #3498db;
+    }
+    
+  }
