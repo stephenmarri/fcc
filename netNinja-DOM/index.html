@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>Steve's Bookstore</title>
+</head>
+<body>
+    <div class="" id="wrapper">
+        
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Steve's Books</h1>
+                <p>A myriad that keeps growing!!!</p>
+                <a href="http://www.wikipedia.com" style="
+                display: block;width: 100%;
+                text-align: center;
+                margin: 10px 0;">Wikipedia</a>
+                <form action="submit" id="search-books">
+                    <input type="text" placeholder="Search books...">
+                </form>
+            </div>
+        </header>
+
+        <div id="book-list">
+            <h2 class="title">Finished books</h2>            
+            <ul>
+                <li>
+                    <span class="name">Old Man and the Sea</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">The Enchantress of Florence</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Jonathan Stone</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">A Death on the Nile</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>            
+        </div>
+
+        <form id="add-book">
+                <input type="checkbox" name="" id="hide" >
+                <label for="hide">Hide Books</label>
+            <input type="text" name="" id="textBox" placeholder="Add a book...">
+            <button>Add</button>
+        </form>
+
+        <div class="" id="tabbed-content">
+            <ul class="tab">
+                <li data-target="#about" class="active">About</li>
+                <li data-target="#contact">Contact</li>
+            </ul>
+            <div class="panel" id="about">
+                <p>Not so a bookwork, but an avid reader try to add as many varities as possible.<br/> me any books that you think are awesome!!!</p>
+            </div>
+            <div class="panel" id="contact">
+                <p>Stephen Marri<br/>Living in Vijayawada, Andhra Pradesh</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
