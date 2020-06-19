@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/fontawesome.css">
+    <link rel="stylesheet" href="fonts/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Steve's Portfolio</title>
+</head>
+
+<style>
+    @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+</style>
+
+<body>
+
+    <div id="wrapper">
+        <div id="navbar" class="flex-row">
+            <div id="navbar__wrapper" class="flex-row">
+                <div class="nav__item button flex-row" id="home"><a href="#welcome-section">Home</a></div>
+                <div class="nav__item button flex-row" id="work"><a href="#projects">Work</a></div>
+                <div class="nav__item button flex-row" id="contact"><a href="#contact-section">Contact</a></div>
+            </div>
+        </div>
+        <div id="welcome-section" class="flex-col">
+            <h1 id="name">Hey, I am Stephen</h1>
+            <p id="description">a web developer</p>
+        </div>
+
+        <div id="projects">
+            <h2 id="heading">These are some of my projects</h2> 
+            <div id="tiles--wrapper" class="flex-row">
+                <div class="project-tile button">
+                    <div id="tile__image"></div>
+                    <div id="tile__text" class="flex-row"><a>Encryption Algorithms</a></div>
+                </div>
+                <div class="project-tile button">
+                    <div id="tile__image"></div>
+                    <div id="tile__text" class="flex-row"><a>Sorting Visualizer</a></div>
+                </div>
+                <div class="project-tile button">
+                    <div id="tile__image"></div>
+                    <div id="tile__text" class="flex-row"><a>Space Invaders</a></div>
+                </div>
+                <div class="project-tile button">
+                    <div id="tile__image"></div>
+                    <div id="tile__text" class="flex-row"><a>Tetris</a></div>
+                </div>
+                <div class="project-tile button">
+                    <div id="tile__image"></div>
+                    <div id="tile__text" class="flex-row"><a href="">Random Jokes</a></div>
+                </div>
+                <div class="project-tile button">
+                    <div id="tile__image"></div>
+                    <div id="tile__text" class="flex-row"><a href="">Math Functions</a></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="contact-section">
+            <h1>Let's work togther...</h1>
+            <h3>How do you take your coffee?</h3>
+            <div id="ct__tiles" class="flex-row">
+                <div class="tile button">
+                    <i class="fa fa-github "></i>
+                    <a id="profile-link" target="_blank" href="https://github.com/stephenmarri">GitHub</a>
+                </div>
+                <div class="tile button">
+                    <i class="fa fa-linkedin"></i>                    
+                    <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/stephen-marri-177b2b81/">LinkedIn</a></div>
+                <div class="tile button">
+                    <i class="fa fa-facebook-square "></i>
+                    <a id="profile-link" target="_blank" href="https://www.facebook.com/people/Stephen-Marri/100008602962077">Facebook</a>
+                </div>
+                <div class="tile button">
+                    <i class="fa fa-mobile"></i>
+                    <a id="profile-link" target="_blank" href="tel:+918002230204">Call Me</a>
+                </div>
+                <div class="tile button">
+                    <i class="fa fa-google"></i>
+                    <a id="profile-link" target="_blank" href="mailto:stephenmarri7@gmail.com">Mail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
