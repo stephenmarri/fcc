@@ -89,7 +89,9 @@ html,body{
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-
+#projects .project-tile:hover{
+    transform: scale(1.04);
+}
 #projects .project-tile #tile__image{
     height: 30rem;
     width: 100%;
@@ -153,6 +155,7 @@ html,body{
 #ct__tiles{
     font-size: 2rem;
     margin-top: 3rem;
+    flex-wrap: wrap;
 }
 #ct__tiles i{
      padding-right: 0.2rem;
@@ -191,5 +194,25 @@ html,body{
     transform: scale(1.01);
 }
 
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 7px;
+    }
+    #tiles--wrapper{
+        width: 100%;
+        padding: 0 ;
+    }
+    #projects #tiles--wrapper .project-tile{
+        width: 100%;   
+    }
+    #projects .project-tile{
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 4rem;
+    }
+    #projects #heading{
+        margin-bottom: 3rem;
+    }
+  }
 
 /* misc */
