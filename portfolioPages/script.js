@@ -1,5 +1,8 @@
 let projectTiles = document.querySelectorAll('.project-tile')
+let showAll = document.querySelector('#showAll')
 
+
+showAll.addEventListener('click',showAllHandler)
 projectTiles.forEach(x => {
     x.addEventListener('click', tileHandler)
 })
@@ -28,4 +31,9 @@ function tileHandler() {
         default:
             break;
     }
+}
+
+
+function showAllHandler(){
+    window.open("projects.html", '_blank');
 }
