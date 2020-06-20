@@ -89,10 +89,13 @@ body{
 /***************** list--wrapper  ***************/
 
 /*****************  tile--wrapper ***************/
-.tile--wrapper{
+.section .tile--wrapper{
+    display: block;
     width: 99%;
-    margin: 1rem auto;
     background-color: #535c68;   
+    height: 0;
+    overflow: hidden;
+    transition: height 1s cubic-bezier(0.22, 0.61, 0.36, 1);;
 }
 
 .tile--wrapper .tile{
@@ -102,7 +105,8 @@ body{
     margin-bottom: 2rem;
     border-bottom: 0px solid rgba(255, 255, 255, 0.1);
     padding: 0 0 0 1rem;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5)
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+
 }
 
 
@@ -147,12 +151,12 @@ body{
 }
 
 
-.section .tile--wrapper{
-    display: none;  
-}
+
 
 .section .tile--wrapper.active{
-    display: block;    
+    height: 110vh; 
+    margin: 1rem auto;
+
 }
 
 /*****************  tile--wrapper ***************/
@@ -197,6 +201,12 @@ body{
     #tText_head{
         text-decoration: underline;
         border-bottom: none;
+    }
+
+    .section .tile--wrapper.active{
+        height: 70vh; 
+        margin: 1rem auto;
+    
     }
 }
 /***************** media queries ***************/
