@@ -12,4 +12,6 @@ function headinghandler(){
     const id = this.dataset.id
     const tile = document.querySelector(`#tile${id}`)
     tile.classList.toggle('active')
+    const symbol = this.querySelector('#symbol')
+    symbol.textContent= symbol.textContent == "+" ? "-" : "+" 
 }

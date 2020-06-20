@@ -64,7 +64,15 @@ body{
     cursor: pointer;
     margin-bottom: 0.5rem;
     color: black;
+    transition: all 0.3s linear
+
 }
+
+#symbol{
+    float: right;
+    padding-right: 2.5%;
+}
+
 
 .list--wrapper #section__header.active{
     background-color: #130f40;
@@ -84,7 +92,7 @@ body{
 .tile--wrapper{
     width: 99%;
     margin: 1rem auto;
-    background-color: #535c68; 
+    background-color: #535c68;   
 }
 
 .tile--wrapper .tile{
@@ -140,10 +148,11 @@ body{
 
 
 .section .tile--wrapper{
-    display: none;
+    display: none;  
 }
-.tile--wrapper.active{
-    display: block;
+
+.section .tile--wrapper.active{
+    display: block;    
 }
 
 /*****************  tile--wrapper ***************/
