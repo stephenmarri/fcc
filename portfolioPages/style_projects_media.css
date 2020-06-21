@@ -22,7 +22,7 @@
       font-size: 5px;
     }
     body {
-      background: red;
+      background: #3d3d3d;
     }
 
     #header{
@@ -52,6 +52,14 @@
 
     .section .tile--wrapper.active{
         height: 70vh; 
+    }
+    .footer{
+        width: 100%;
+        justify-content: space-evenly !important;
+    }
+
+    .footer .connect_tile{
+        padding: none;
     }
 }
 /***************** media queries ***************/
