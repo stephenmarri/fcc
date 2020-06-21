@@ -120,6 +120,12 @@ body{
     
 }
 
+#tile_text a{
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
 #tText_head{
     width: fit-content;
     font-size: 3.5rem;

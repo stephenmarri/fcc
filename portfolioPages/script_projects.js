@@ -76,11 +76,15 @@ function makeTile(name, description, imgSrc, link) {
     let html = `
     <div class="tile flex-row"  >
         <div id="tile_text" class="flex-col">
+            <a target='_blank' href=${link}>
             <span id="tText_head">${name}</span>
+            </a>
             <span id="tText_desc">${description}</span>
         </div>
         <div id="tile_image" > 
+        <a target='_blank' href=${link}>
             <img src=${imgSrc} alt="">
+        </a>
         </div>
     </div>                    
     `
