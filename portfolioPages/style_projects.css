@@ -161,52 +161,5 @@ body{
 
 /*****************  tile--wrapper ***************/
 
-/*****************  ***************/
-/*****************  ***************/
-/*****************  ***************/
 
 
-
-
-/***************** media queries ***************/
-.flex-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex-col{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-@media only screen and (max-width: 600px) {
-    html{
-      font-size: 5px;
-    }
-    body {
-      background: red;
-    }
-    .wrapper{
-        width: 100%;
-        padding-top: 2rem;
-    }
-    .tile--wrapper .tile{
-        height: 35vh;
-    }
-    #tText_head{
-        text-decoration: underline;
-        border-bottom: none;
-    }
-
-    .section .tile--wrapper.active{
-        height: 70vh; 
-        margin: 1rem auto;
-    
-    }
-}
-/***************** media queries ***************/

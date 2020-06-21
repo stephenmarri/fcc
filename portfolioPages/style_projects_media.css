@@ -1,0 +1,57 @@
+
+
+
+/***************** media queries ***************/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    html{
+      font-size: 5px;
+    }
+    body {
+      background: red;
+    }
+
+    #header{
+        width: 90%;
+    }
+
+    .wrapper{
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    .list--wrapper{
+        width: 98%;    
+    }
+
+    .tile--wrapper .tile{
+        height: 35vh;
+    }
+    .list--wrapper #section__header{
+        font-size: 3.75rem;
+        padding: 1.5rem 0 1.5rem 2rem;
+    }
+    #tText_head{
+        text-decoration: underline;
+        border-bottom: none;
+    }
+
+    .section .tile--wrapper.active{
+        height: 70vh; 
+    }
+}
+/***************** media queries ***************/
