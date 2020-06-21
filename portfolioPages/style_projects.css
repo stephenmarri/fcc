@@ -27,7 +27,7 @@ body{
 }
 /***************** header ***************/
 #header{
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: fit-content;
     margin-right: auto;
     margin-left: auto;
@@ -38,12 +38,12 @@ body{
     background-color: #130f40;
 }
 #header__text1{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 #header__text2{
-    padding-top: 0.5rem;
-    font-size: 2rem;
+    padding-top: 0.2rem;
+    font-size: 1.75rem;
 }
 /***************** header ***************/
 
