@@ -3,6 +3,7 @@ let listWrapper;
 let gridSelector;
 let tileWrappers;
 let tiles;
+let arrows;
 
 
 
@@ -151,6 +152,10 @@ function viewHandler(){
                 x.classList.add('active')
             }
         });
+
+        //enabling arrows
+        arrows = document.querySelectorAll('.arrInnDiv')
+        arrows.forEach(x=>x.addEventListener('click',arrowHandler))
     }
 
     //disable grid
@@ -168,4 +173,31 @@ function viewHandler(){
                 x.classList.remove('active')            
         });
     }
+}
+
+
+function arrowHandler(){
+    let currentSection = this.parentNode.parentNode.parentNode.previousElementSibling.dataset.id
+    let totalCount = jsonData[`section${currentSection}`]["count"]
+    let currTileID = parseInt(this.parentNode.parentNode.dataset.tileitem);
+    let currTileWrapper = document.querySelector(`#tile${currentSection}`)
+    let tileItem= currTileWrapper.querySelectorAll('[data-tileItem]')
+    let nextItem;
+
+    let left_right = this.parentNode.id
+
+    if(left_right == "rightArrow"){
+         nextItem = currTileID +1 > totalCount ? 1 : currTileID + 1
+    }else if(left_right == "leftArrow"){
+         nextItem = currTileID - 1 == 0 ? totalCount : currTileID - 1
+    }
+    
+    
+    tileItem.forEach(x=>{
+        x.classList.remove('active')
+        if(x.dataset.tileitem == nextItem){
+            x.classList.add('active')
+        }
+    })
+        
 }
