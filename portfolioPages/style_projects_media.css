@@ -102,7 +102,7 @@
         width: 2.65rem;
         left: 0px;
         bottom: 0px;
-        background-color: white;
+        background-color: rgb(77, 59, 59)   ;
         -webkit-transition: .4s;
         transition: .4s;
       }

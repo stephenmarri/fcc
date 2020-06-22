@@ -37,8 +37,8 @@ function init() {
         let title = data[x]["title"]
         let totalCount = data[x]["count"]
         let tilesHtml=''
-        let height= parseInt(55 * parseInt(data[x]["count"]))
-        let heightMedia= parseInt(35 * parseInt(data[x]["count"]))
+        let height= parseInt(57 * parseInt(data[x]["count"]))
+        let heightMedia= parseInt(37 * parseInt(data[x]["count"]))
 
         for(let i=1;i<=data[x]["count"];i++){
             let id = data[x]["tiles"][`tile${i}`]["id"]
