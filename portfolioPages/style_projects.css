@@ -207,14 +207,14 @@ body{
     position: absolute;
     left: 0;
     height: 100%;
-    width: 3%;
+    width: 4%;
     opacity: 0.3;
 }
 .grid #rightArrow{        
     position: absolute;
     right: 0;
     height: 100%;
-    width: 3%;
+    width: 4%;
     opacity: 0.2;
 
 }

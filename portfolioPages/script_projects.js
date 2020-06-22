@@ -34,6 +34,7 @@ function init() {
     for (x in data) {
         let id = data[x]["id"]
         let title = data[x]["title"]
+        let totalCount = data[x]["count"]
         let tilesHtml=''
         let height= parseInt(55 * parseInt(data[x]["count"]))
         let heightMedia= parseInt(35 * parseInt(data[x]["count"]))
@@ -44,7 +45,7 @@ function init() {
             let description = data[x]["tiles"][`tile${i}`]["description"]
             let imgSrc = data[x]["tiles"][`tile${i}`]["imgSrc"]
             let link = data[x]["tiles"][`tile${i}`]["link"]
-            tilesHtml+= makeTile(id,name,description,imgSrc,link);
+            tilesHtml+= makeTile(id,name,description,imgSrc,link,totalCount);
         }
 
         listWrapper.innerHTML += makeTileSection(id, title,tilesHtml);
@@ -79,9 +80,13 @@ function makeTileSection(id, title, tilesHtml) {
     return html
 }
 
-function makeTile(id,name, description, imgSrc, link) {
+function makeTile(id,name, description, imgSrc, link, totalCount) {
     let html = `
     <div class="tile flex-row grid_disabled" data-tileItem=${id}>
+
+    <div id="tileCounter" class="flex-col">
+        <span id="tileCounterText">${id}/${totalCount}</span>
+    </div>
 
         <div id="leftArrow" class="arrMainDiv flex-col">
             <div class="arrInnDiv flex-col" >
