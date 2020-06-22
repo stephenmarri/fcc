@@ -70,14 +70,46 @@
     }
 
     .grid .arrInnDiv i{
-        font-size: 2rem;
+        font-size: 4rem !important;
     }
     .arrMainDiv{
         width: 7% !important;
+        opacity: 0.7 !important;
+    }
+    .arrInnDiv{
+        background-color: #000 !important;
     }
     .gridSelector{
-        font-size: 2rem;
+        font-size: 3rem;
         margin-right: 1%;
+        padding-left: 1rem;
+        margin-top: 2.5rem !important;
+        margin-bottom: 2rem !important;
+        line-height: 3.2rem;
+
     }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 5rem;
+        height: 3rem;
+      }
+
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 2.9rem;
+        width: 2.65rem;
+        left: 0px;
+        bottom: 0px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(2.5rem);
+      }
 }
 /***************** media queries ***************/
