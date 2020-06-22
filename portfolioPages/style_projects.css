@@ -269,15 +269,17 @@ body{
 }
 
 #tileCounter{
-    width: 7%;
+    width: 5%;
     height: 10%;
     background-color: white;
     position: absolute;
     right: 1%;
     top: 1%;
     border-radius: 5px;
-    background-color: rgba(99, 110, 114, 0.3);
+    background-color: rgba(99, 110, 114, 1);
+    letter-spacing: 0.2rem;
     opacity: 1;
+    text-align: center;
 }
 
 #tileCounterText{
@@ -360,10 +362,10 @@ body{
   .slider:before {
     position: absolute;
     content: "";
-    height: 1.8rem;
+    height: 2.1rem;
     width: 2.2rem;
-    left: 2px;
-    bottom: 1px;
+    left: 0px;
+    bottom: 0px;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
@@ -381,7 +383,7 @@ body{
   input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
-    transform: translateX(1.25rem);
+    transform: translateX(2rem);
   }
   
   /* Rounded sliders */

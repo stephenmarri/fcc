@@ -111,5 +111,8 @@
         -ms-transform: translateX(26px);
         transform: translateX(2.5rem);
       }
+      #tileCounter{
+        width: 10%;
+    }
 }
 /***************** media queries ***************/
