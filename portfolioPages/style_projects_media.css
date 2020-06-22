@@ -68,5 +68,12 @@
         display: flex !important;
         flex-direction: row !important;
     }
+
+    .grid .arrInnDiv i{
+        font-size: 2rem;
+    }
+    .arrMainDiv{
+        width: 7% !important;
+    }
 }
 /***************** media queries ***************/

@@ -265,6 +265,31 @@ body{
 }
 /*****************  grid ***************/
 
+/*****************  tile Counter***************/
+.tile{
+    position: relative;
+}
+
+#tileCounter{
+    width: 7%;
+    height: 10%;
+    background-color: white;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    border-radius: 5px;
+    background-color: rgba(99, 110, 114, 0.3);
+    opacity: 1;
+}
+
+#tileCounterText{
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+/*****************  tile Counter***************/
+
 
 
 

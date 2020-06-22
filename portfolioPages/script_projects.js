@@ -130,6 +130,7 @@ function viewHandler(){
     tileWrappers=document.querySelectorAll('.tile--wrapper')
     tiles=document.querySelectorAll('.tile')
 
+    //enalble grid
     if(gridSelector.checked == true){
         tileWrappers.forEach(x=>{
             x.classList.remove('grid_disabled')
@@ -144,6 +145,22 @@ function viewHandler(){
             if(x.dataset.tileitem==1){
                 x.classList.add('active')
             }
+        });
+    }
+
+    //disable grid
+    if(gridSelector.checked == false){
+        tileWrappers.forEach(x=>{
+            x.classList.remove('grid')
+            x.classList.add('grid_disabled')
+        })
+        tiles.forEach(x=>{
+            x.classList.remove('grid')
+            x.classList.add('grid_disabled')
+        })
+        let tileItem1s= document.querySelectorAll('[data-tileItem]')
+        tileItem1s.forEach(x=>{            
+                x.classList.remove('active')            
         });
     }
 }
