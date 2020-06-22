@@ -2,7 +2,7 @@ let jsonData = {
     section1: {
         id:1,
         title: "Vanilla JS Projects",
-        count: 2,
+        count: 4,
         tiles: {
             tile1:{
                 id: 1,
@@ -13,11 +13,25 @@ let jsonData = {
             },
             tile2:{
                 id: 2,
-                name: "Jokes API",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!",
+                name: "Sorting Visualizer",
+                description:"Visualize the sorting algoriths using an unsorted array of custom length at custom speeds. The sorting methods available are Heap Sort, Merge Sort, Quick Sort, Bubble Sort, Insertion Sort, Selection Sort.",
+                imgSrc:"img_proj/sorting.png",
+                link:"https://stephenmarri.github.io/js_projects/sortingVisualizer/"
+            },
+            tile3:{
+                id: 3,
+                name: "Mathematical Functions",
+                description:"A page that helps to validate if a given number meets a particular known criteria. The criterion being Prime, Palindrom, Fibonacci, Perfect Square and Perfect cube.",
                 imgSrc:"img_proj/math.png",
-                link:"https://stephenmarri.github.io/js_projects/ciphers/"
-            }
+                link:"https://stephenmarri.github.io/js_projects/mathFunctions/"
+            },
+            tile4:{
+                id: 4,
+                name: "Jokes API",
+                description:"A page that fetches jokes from free API endpoints. The caterogies or APIs for this jokes are related ro referenced to Chuck Norris API, icanhazdadjokes API, Geek Jokes api from a user of GitHub",
+                imgSrc:"img_proj/dadjokes.png",
+                link:"https://stephenmarri.github.io/singletons/randomDadJokes/"
+            },
         }
     },
     section2: {
@@ -111,38 +125,38 @@ let jsonData = {
         tiles: {
             tile1:{
                 id: 1,
-                name: "Encryption Algorithms",
-                description:"A utility which converts or encrypts a given senctence or phrase into and encrypted version using the Ceaser's Cipher mechanism. It also converts using a secret key.",
-                imgSrc:"img_proj/ciphers.png",
-                link:"https://stephenmarri.github.io/js_projects/ciphers/"
+                name: "Documentation Pages",
+                description:"",
+                imgSrc:"img_proj/fcc_documentation.png",
+                link:"https://stephenmarri.github.io/freeCodeCampActivites/documentationPages/"
             },
             tile2:{
                 id: 2,
-                name: "Jokes API",
+                name: "Tribute Pages",
                 description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!",
-                imgSrc:"img_proj/ciphers.png",
-                link:"https://stephenmarri.github.io/js_projects/ciphers/"
+                imgSrc:"img_proj/fcc_tribute.jpg",
+                link:"https://stephenmarri.github.io/freeCodeCampActivites/tributePages/"
             },
             tile3:{
                 id: 3,
-                name: "Jokes API",
+                name: "Product Landing Page",
                 description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!",
-                imgSrc:"img_proj/ciphers.png",
-                link:"https://stephenmarri.github.io/js_projects/ciphers/"
+                imgSrc:"img_proj/fcc_landing.png",
+                link:"https://stephenmarri.github.io/freeCodeCampActivites/landingPages/"
             },
             tile4:{
                 id: 4,
-                name: "Jokes API",
+                name: "Survey Forms",
                 description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!",
-                imgSrc:"img_proj/ciphers.png",
-                link:"https://stephenmarri.github.io/js_projects/ciphers/"
+                imgSrc:"img_proj/fcc_form.png",
+                link:"https://stephenmarri.github.io/freeCodeCampActivites/surveyForms/"
             },
             tile5:{
                 id: 5,
-                name: "Jokes API",
+                name: "Portfolio Page",
                 description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!",
-                imgSrc:"img_proj/ciphers.png",
-                link:"https://stephenmarri.github.io/js_projects/ciphers/"
+                imgSrc:"img_proj/fcc_portfolio.png",
+                link:"https://stephenmarri.github.io/freeCodeCampActivites/portfolioPages/index.html"
             }
         }
     },
@@ -156,36 +170,36 @@ let jsonData = {
                 id: 1,
                 name: "Project Euler",
                 description:"Solutions to the problems found on the popular website ProjectEuler.net. Solved the first 30 questions myself in Python and JavaScript. My Solutions can be accssed from the below link.",
-                imgSrc:"img_proj/ciphers.png",
-                link:"https://stephenmarri.github.io/js_projects/ciphers/"
+                imgSrc:"img_proj/project_euler.png",
+                link:"https://github.com/stephenmarri/project_euler"
             }
         }
     },
     section6: {
         id:6,
-        title: "Single Utility Pages",
+        title: "Miniature Projects",
         count: 3,
         tiles: {
             tile1: {
                 id: 1,
                 name: "CSS Search Box",
                 description:"A simple page with a interactive search box that expands on hovering.",
-                imgSrc:"img_proj/ciphers.png",
+                imgSrc:"img_proj/min_search.png",
                 link:"https://stephenmarri.github.io/singletons/interactiveSearchBox/"
             },
             tile2:{
                 id: 2,
                 name: "Sample Sprite",
                 description:"A Simple sprite animation of a running girl",
-                imgSrc:"img_proj/ciphers.png",
+                imgSrc:"img_proj/min_sprite.png",
                 link:"https://stephenmarri.github.io/singletons/sprites/index.html"
             },
             tile3:{
                 id: 3,
-                name: "Sample Sprite",
-                description:"A Simple sprite animation of a running girl",
-                imgSrc:"img_proj/ciphers.png",
-                link:"https://stephenmarri.github.io/singletons/sprites/index.html"
+                name: "Quizzes",
+                description:"Three quizzed and two with pictures",
+                imgSrc:"img_proj/min_quiz.png",
+                link:"https://stephenmarri.github.io/quizzes/scripture/wit-img/"
             }
         }
     }
