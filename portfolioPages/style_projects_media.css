@@ -62,5 +62,11 @@
     .footer .connect_tile{
         padding: none;
     }
+
+    .tile--wrapper.grid.active{
+        height: 40vh  !important;
+        display: flex !important;
+        flex-direction: row !important;
+    }
 }
 /***************** media queries ***************/

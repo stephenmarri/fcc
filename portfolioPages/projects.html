@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style_projects.css">
     <link rel="stylesheet" href="style_projects_media.css">
     <title>Steve's Projects</title>
@@ -18,21 +18,30 @@
             <div id="header__text1">My Projects List</div>
             <div id="header__text2">- Stephen Marri</div>
         </div>
+        <div class="gridSelector"><input type="checkbox" name="grid" id="grid">Grid</div>
 
         <div class="list--wrapper">
 
             <!-- Sample div of tile section -->
-            <!-- <div class="section" >                
-                <div id="section__header" data-id="0" >Experiment<span id="symbol">+</span></div>                
-                <div class="tile--wrapper flex-col " id="tile0">
-                   
-                    <div class="tile flex-row"  >
+            <div class="section">
+                <div id="section__header" data-id="0" >Experiment<span id="symbol">+</span></div>
+                <div class="tile--wrapper flex-col grid_disabled" id="tile0">
+
+                    <div class="tile flex-row grid_disabled" data-tileItem=1>
+
+                        <div id="leftArrow" class="arrMainDiv flex-col">
+                            <div class="arrInnDiv flex-col" >
+                                <span class="arrow"><i class="fa fa-angle-left fa-4x"></i></span>
+                            </div>
+                        </div>
+
                         <div id="tile_text" class="flex-col">
                             <a target='_blank' href="https://stephenmarri.github.io/js_projects/ciphers/">
                                 <span id="tText_head">Encryption Algorithms</span>
                             </a>
                             <span id="tText_desc">
-                                A utility which converts or encrypts a given senctence or phrase into and encrypted version using the Ceaser's Cipher mechanism. It also converts using a secret key.
+                                A utility which converts or encrypts a given senctence or phrase into and encrypted
+                                version using the Ceaser's Cipher mechanism. It also converts using a secret key.
                             </span>
                         </div>
                         <div id="tile_image">
@@ -40,39 +49,66 @@
                                 <img src="img_proj/ciphers.png" alt="">
                             </a>
                         </div>
+
+                        <div id="rightArrow" class="arrMainDiv flex-col">
+                            <div class="arrInnDiv flex-col" >
+                                <span class="arrow"><i class="fa fa-angle-right fa-4x"></i></span>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="tile flex-row"  >
+
+                    <div class="tile flex-row grid_disabled" data-tileItem=2>
+                        <div id="leftArrow" class="arrMainDiv flex-col">
+                            <div class="arrInnDiv flex-col" >
+                                <span class="arrow"><i class="fa fa-angle-left fa-4x"></i></span>
+                            </div>
+                        </div>
+
                         <div id="tile_text" class="flex-col">
-                            <span id="tText_head">Jokes API</span>
-                            <span id="tText_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!</span>
+                            <a target='_blank' href="https://stephenmarri.github.io/js_projects/ciphers/">
+                                <span id="tText_head">Jokes API</span>
+                            </a>
+                            <span id="tText_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                                reiciendis!</span>
                         </div>
-                        <div id="tile_image" > 
-                            <img src="img_proj/dadjokes.png" alt="">
+                        <div id="tile_image">
+                            <a href="https://stephenmarri.github.io/js_projects/ciphers/" target="_blank">
+                                <img src="img_proj/dadjokes.png" alt="">
+                            </a>
                         </div>
+
+                        <div id="rightArrow" class="arrMainDiv flex-col">
+                            <div class="arrInnDiv flex-col" >
+                                <span class="arrow"><i class="fa fa-angle-right fa-4x"></i></span>
+                            </div>
+                        </div>
+
                     </div>
-                                        
+
                 </div>
-            </div> -->
-           
-           
+            </div>
+
+
         </div>
 
-        
+
 
     </div>
     <div class="footer flex-row">
-            
+
         <div class="connect_tile">
             <i class="fa fa-github "></i>
             <a id="profile-link" target="_blank" href="https://github.com/stephenmarri">GitHub</a>
         </div>
-        <div class="connect_tile">                
-            <i class="fa fa-linkedin"></i>                    
+        <div class="connect_tile">
+            <i class="fa fa-linkedin"></i>
             <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/stephen-marri-177b2b81/">LinkedIn</a>
         </div>
         <div class="connect_tile">
             <i class="fa fa-facebook-square "></i>
-            <a id="profile-link" target="_blank" href="https://www.facebook.com/people/Stephen-Marri/100008602962077">Facebook</a>
+            <a id="profile-link" target="_blank"
+                href="https://www.facebook.com/people/Stephen-Marri/100008602962077">Facebook</a>
         </div>
         <div class="connect_tile">
             <i class="fa fa-mobile"></i>
@@ -82,8 +118,8 @@
             <i class="fa fa-google"></i>
             <a id="profile-link" target="_blank" href="mailto:stephenmarri7@gmail.com">Mail</a>
         </div>
-    
-</div>
+
+    </div>
 
     <script src="data_json.js"></script>
     <script src="script_projects.js"></script>
