@@ -73,8 +73,11 @@
         font-size: 2rem;
     }
     .arrMainDiv{
-        width: 7
-        % !important;
+        width: 7% !important;
+    }
+    .gridSelector{
+        font-size: 2rem;
+        margin-right: 1%;
     }
 }
 /***************** media queries ***************/
