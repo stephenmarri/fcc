@@ -101,7 +101,7 @@ body{
     background-color: #535c68;   
     height: 0;
     overflow: hidden;
-    transition: height 1s cubic-bezier(0.22, 0.61, 0.36, 1);;
+    transition: height 1s cubic-bezier(0.57, 0.24, 0.43, 0.98);
 }
 
 .tile--wrapper .tile{
@@ -202,6 +202,7 @@ body{
     height: 65vh  !important;
     display: flex !important;
     flex-direction: row !important;
+
 }
 .grid #leftArrow{
     position: absolute;
@@ -293,4 +294,24 @@ body{
 
 
 
+
+/***************** Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  @-webkit-keyframes fade {
+    0% {opacity: 0.25;}
+    100% {opacity: 1;}
+  }
+  
+  @keyframes fade {
+    0% {opacity: 0.25;}
+    100% {opacity: 1;}
+  }
 

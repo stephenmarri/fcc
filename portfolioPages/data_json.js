@@ -15,7 +15,7 @@ let jsonData = {
                 id: 2,
                 name: "Jokes API",
                 description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!",
-                imgSrc:"img_proj/ciphers.png",
+                imgSrc:"img_proj/math.png",
                 link:"https://stephenmarri.github.io/js_projects/ciphers/"
             }
         }

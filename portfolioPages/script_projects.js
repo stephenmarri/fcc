@@ -83,7 +83,7 @@ function makeTileSection(id, title, tilesHtml) {
 
 function makeTile(id,name, description, imgSrc, link, totalCount) {
     let html = `
-    <div class="tile flex-row grid_disabled" data-tileItem=${id}>
+    <div class="tile flex-row grid_disabled fade" data-tileItem=${id}>
 
     <div id="tileCounter" class="flex-col">
         <span id="tileCounterText">${id}/${totalCount}</span>
