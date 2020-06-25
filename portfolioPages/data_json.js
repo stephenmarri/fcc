@@ -112,7 +112,7 @@ let jsonData = {
             tile2:{
                 id: 2,
                 name: "Jokes API",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!",
+                description:"",
                 imgSrc:"img_proj/ciphers.png",
                 link:"https://stephenmarri.github.io/js_projects/ciphers/"
             }
@@ -133,28 +133,28 @@ let jsonData = {
             tile2:{
                 id: 2,
                 name: "Tribute Pages",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!",
+                description:"",
                 imgSrc:"img_proj/fcc_tribute.jpg",
                 link:"https://stephenmarri.github.io/fcc/tributePages/"
             },
             tile3:{
                 id: 3,
                 name: "Product Landing Page",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!",
+                description:"",
                 imgSrc:"img_proj/fcc_landing.png",
                 link:"https://stephenmarri.github.io/fcc/landingPages/"
             },
             tile4:{
                 id: 4,
                 name: "Survey Forms",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!",
+                description:"",
                 imgSrc:"img_proj/fcc_form.png",
                 link:"https://stephenmarri.github.io/fcc/surveyForms/"
             },
             tile5:{
                 id: 5,
                 name: "Portfolio Page",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis!",
+                description:"",
                 imgSrc:"img_proj/fcc_portfolio.png",
                 link:"https://stephenmarri.github.io/fcc/portfolioPages/index.html"
             }
