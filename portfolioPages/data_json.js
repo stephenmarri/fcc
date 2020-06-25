@@ -171,7 +171,7 @@ let jsonData = {
                 name: "Project Euler",
                 description:"Solutions to the problems found on the popular website ProjectEuler.net. Solved the first 30 questions myself in Python and JavaScript. My Solutions can be accssed from the below link.",
                 imgSrc:"img_proj/project_euler.png",
-                link:"https://github.com/stephenmarri/project_euler"
+                link:"https://stephenmarri.github.io/project_euler/site/"
             }
         }
     },
