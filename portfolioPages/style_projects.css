@@ -372,7 +372,7 @@ body{
   }
   
   input:checked + .slider {
-    background-color: aqua;
+    background-color: #4cd137;
   }
   
   

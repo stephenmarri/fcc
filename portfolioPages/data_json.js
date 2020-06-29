@@ -116,7 +116,7 @@ let jsonData = {
                 imgSrc:"img_proj/wes_02.png",
                 link:"https://stephenmarri.github.io/JavaScript30/02-AnalogClock/index.html"
             },
-            tile:{
+            tile3:{
                 id: 3,
                 name: "CSS Variables",
                 description:"Change the CSS variable of the image like size, color & background color using JavaScript",
@@ -127,20 +127,20 @@ let jsonData = {
                 id: 4,
                 name: "Flex Panels",
                 description:"Click on an image to expand it. Done using CSS FlexBox",
-                imgSrc:"img_proj/wes_05.png",
+                imgSrc:"img_proj/wes_05.jpg",
                 link:"https://stephenmarri.github.io/JavaScript30/05-FlexPanels/index.html"
             },
             tile5:{
                 id: 5,
                 name: "Type Ahead",
-                description:"This is feature that is found in several websites. It provides you suggestions for cities in India",
+                description:"This is a feature that is found in several websites. It provides you suggestions for cities in India",
                 imgSrc:"img_proj/wes_06.png",
                 link:"https://stephenmarri.github.io/JavaScript30/06-TypeAhead/"
             },
             tile6:{
                 id: 6,
                 name: "Canvas",
-                description:"The page is canvas, click and draw on it. Also the size of the brush toggles in width. Made using HTML Canvas",
+                description:"The page is a canvas, click and draw on it. Also the size of the brush toggles in width. Made using HTML Canvas",
                 imgSrc:"img_proj/wes_08.png",
                 link:"https://stephenmarri.github.io/JavaScript30/08-Canvas/"
             },
