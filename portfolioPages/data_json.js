@@ -100,21 +100,56 @@ let jsonData = {
     section3: {
         id:3,
         title: "JavaScript 30",
-        count: 2,
+        count: 7,
         tiles: {
             tile1:{
                 id: 1,
-                name: "Encryption Algorithms",
-                description:"A utility which converts or encrypts a given senctence or phrase into and encrypted version using the Ceaser's Cipher mechanism. It also converts using a secret key.",
-                imgSrc:"img_proj/ciphers.png",
-                link:"https://stephenmarri.github.io/js_projects/ciphers/"
+                name: "Drum Kit",
+                description:"A simple JavaScript Drumkit. Press the characters in the middle row of the keyboard and play the sounds",
+                imgSrc:"img_proj/wes_01.png",
+                link:"https://stephenmarri.github.io/JavaScript30/01-DrumKit/"
             },
             tile2:{
                 id: 2,
-                name: "Jokes API",
+                name: "Analog Clock",
                 description:"",
-                imgSrc:"img_proj/ciphers.png",
-                link:"https://stephenmarri.github.io/js_projects/ciphers/"
+                imgSrc:"img_proj/wes_02.png",
+                link:"https://stephenmarri.github.io/JavaScript30/02-AnalogClock/index.html"
+            },
+            tile:{
+                id: 3,
+                name: "CSS Variables",
+                description:"Change the CSS variable of the image like size, color & background color using JavaScript",
+                imgSrc:"img_proj/wes_03.png",
+                link:"https://stephenmarri.github.io/JavaScript30/03-CSSVariables/"
+            },
+            tile4:{
+                id: 4,
+                name: "Flex Panels",
+                description:"Click on an image to expand it. Done using CSS FlexBox",
+                imgSrc:"img_proj/wes_05.png",
+                link:"https://stephenmarri.github.io/JavaScript30/05-FlexPanels/index.html"
+            },
+            tile5:{
+                id: 5,
+                name: "Type Ahead",
+                description:"This is feature that is found in several websites. It provides you suggestions for cities in India",
+                imgSrc:"img_proj/wes_06.png",
+                link:"https://stephenmarri.github.io/JavaScript30/06-TypeAhead/"
+            },
+            tile6:{
+                id: 6,
+                name: "Canvas",
+                description:"The page is canvas, click and draw on it. Also the size of the brush toggles in width. Made using HTML Canvas",
+                imgSrc:"img_proj/wes_08.png",
+                link:"https://stephenmarri.github.io/JavaScript30/08-Canvas/"
+            },
+            tile7:{
+                id: 7,
+                name: "Check Boxes",
+                description:"Another simple feature that allows you hold SHIFT and click to select or deselect multiple items.",
+                imgSrc:"img_proj/wes_10.png",
+                link:"https://stephenmarri.github.io/JavaScript30/03-CSSVariables/"
             }
         }
     },
