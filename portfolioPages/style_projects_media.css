@@ -98,7 +98,7 @@
       .slider:before {
         position: absolute;
         content: "";
-        height: 2.9rem;
+        height: 3rem;
         width: 2.65rem;
         left: 0px;
         bottom: 0px;
